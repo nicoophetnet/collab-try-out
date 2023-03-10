@@ -1,4 +1,13 @@
 .ece-a,
 .ece-b {
     display: flex;
+    margin: 50px;
+}
+
+.ece-a .ece-img {
+    margin-left: 50px;
+}
+
+.ece-b .ece-img {
+    margin-right: 50px;
 }
