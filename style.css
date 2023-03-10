@@ -2,6 +2,8 @@
 .ece-b {
     display: flex;
     margin: 50px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 .ece-a .ece-img {
