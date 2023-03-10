@@ -11,3 +11,7 @@
 .ece-b .ece-img {
     margin-right: 50px;
 }
+
+.ece-img {
+    max-height: 200px;
+}
