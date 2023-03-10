@@ -16,4 +16,5 @@
 
 .ece-img {
     max-height: 200px;
+    align-self: center;
 }
