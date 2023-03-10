@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese garden</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper teal darken-4">
+          <div class="container">
+            <a href="#" class="brand-logo">Nico's garden</a>
+            <a
+              href="#"
+              data-target="mobile-demo"
+              class="sidenav-trigger right show-on-small hide-on-med-and-up"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul id="nav-mobile" class="right hide-on-small-only mainmenu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    
+    <main>
+      <section class="row">
+        <h1 class="col s12">Welcome To Our Japanese Garden</h1>
+
+        <div class="col s12 m6">
+          <img
+            src="images/main2-image.jpeg"
+            alt="main Image"
+            class="responsive-img"
+          />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae nisi
+            blanditiis labore minima placeat repudiandae distinctio dolorum ea
+            quis aut, eligendi nulla recusandae dignissimos exercitationem
+            assumenda quaerat temporibus consequuntur ipsa velit, doloribus sed
+            molestias! Tempora molestiae doloribus inventore deserunt sequi
+            quaerat? Mollitia, officiis eligendi? Esse inventore quia sunt
+            eveniet hic.
+          </p>
+        </div>
+
+        <div class="col s12 m6">
+          <img
+            src="images/main3-image.jpeg"
+            alt="main Image"
+            class="responsive-img"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            nulla consectetur ratione. Culpa corporis aut omnis laboriosam amet
+            ipsam vero blanditiis temporibus minus! Sapiente dignissimos quos
+            eaque dolor veritatis illo cupiditate facilis repellendus maxime,
+            praesentium sequi possimus magni numquam culpa debitis. Repellat
+            quae ab quibusdam quia autem modi maxime veniam.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer><div class="container">&copy; 2023 - Nico's garden</div></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems);
+      });
+    </script>
+  </body>
+</html>
