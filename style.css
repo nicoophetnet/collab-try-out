@@ -20,7 +20,7 @@
 .ece-a h2,
 .ece-b h2,
 .ece-smallDiv {
-    max-height: 200px;
+    /* max-height: 200px; */
     align-self: center;
     margin: auto;
     padding: auto;
